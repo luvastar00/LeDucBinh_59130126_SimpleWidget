@@ -92,7 +92,7 @@ btxn.setOnClickListener(new View.OnClickListener() {
         }
              st +=",";
              st += stk.getText().toString().trim();
-         String xuat = name + "\nNgaySinh : " + date + "\nGiới Tính : " + grbt.getText() + "\nSở Thích :" + st ;
+         String xuat = name + "\nNgaySinh : " + date + "\nGiới Tính : " + grbt.getText() + "\nSở Thích : " + st ;
         Toast.makeText(getApplicationContext(), xuat, Toast.LENGTH_SHORT).show();
     }
 
