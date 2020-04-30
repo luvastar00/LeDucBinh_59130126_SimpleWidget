@@ -29,7 +29,7 @@
         android:text="Ngày sinh:" />
 
     <EditText
-        android:id="@+id/date"
+        android:id="@+id/datee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nhập ngày sinh bạn vào đây"
@@ -71,35 +71,38 @@
         android:layout_height="wrap_content"
         android:text="Sở thích của bạn" />
 
-    <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Xem phim" />
 
-    <CheckBox
-        android:id="@+id/checkBox5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nghe nhạc" />
 
-    <CheckBox
-        android:id="@+id/checkBox6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Đi cafe với bạn" />
+        <CheckBox
+            android:id="@+id/xp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem Phim" />
 
-    <CheckBox
-        android:id="@+id/checkBox7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ở nhà một mình" />
+        <CheckBox
+            android:id="@+id/nghe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nghe Nhạc" />
 
-    <CheckBox
-        android:id="@+id/checkBox8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Vào bếp nấu ăn" />
+        <CheckBox
+            android:id="@+id/cafe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đi cafe với bạn" />
+
+        <CheckBox
+            android:id="@+id/mot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ở nhà một mình" />
+
+        <CheckBox
+            android:id="@+id/bep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vào bếp nấu ăn" />
+
 
     <TextView
         android:id="@+id/textView11"
@@ -108,7 +111,7 @@
         android:text="Sở thích khác" />
 
     <EditText
-        android:id="@+id/st"
+        android:id="@+id/stk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
